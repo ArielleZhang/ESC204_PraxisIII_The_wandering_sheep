@@ -8,7 +8,7 @@ Design considerations:
 3. Uncomment the software UART in the code, comment the default SPI code.
 4. Download the Blue Connect mobile phone app, connect it to the bluefruit device.
 5. Upload to the board and open the serial monitor.
-6. If upload failed, check the serial port, make sure it's the arduino UNO poart.
+6. If upload failed, check the serial port, make sure it's the arduino UNO port.
 
 
 ## Collar design requirements
