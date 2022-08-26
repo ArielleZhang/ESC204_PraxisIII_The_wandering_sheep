@@ -1,0 +1,23 @@
+Followers:
+    stores unique sheep id
+    while leader message:
+        send sheep id to Node
+
+Node:
+    broadcast leader message to followers
+    calculate signal stength for every received sheep id
+    if signal strength > signal strength threshold:
+            store the sheep id into sheep cluster ids
+    if update:
+        send GPS location and sheep cluser ids to backend via GSM
+
+Backend:
+    store all updates
+    if received a new update:
+        for every node:
+                if no cluster ids: report this missing leader sheep;s id and its GPS location
+                for every id in the previous updated cluster ids:
+                    if not in the current updated cluster id:
+                        check all the other current updated cluster ids
+                        if not found:
+                            report missing follower's sheep id and GPS location of the previous cluster
