@@ -1,7 +1,7 @@
 # ESC204_PraxisIII_The-wandering_sheep
 
-Design considerations:
-The wandering sheep project implemented the Improving GSM-based sheep tracking: Using a cluster-based multi-hop approach Paper to develop a cost efficient but accurate sheep tracking system for residents in Rosedale Mathatha South Africa.
+Design considerations
+The wandering sheep project implemented the "Improving GSM-based sheep tracking: Using a cluster-based multi-hop approach" paper to develop a cost efficient but accurate sheep tracking system for residents in Rosedale, Mthatha, South Africa.
 
 
 ## Electrical requirements
@@ -18,6 +18,6 @@ The wandering sheep project implemented the Improving GSM-based sheep tracking: 
 ## Back end requirements
 1. The back end database with an example used in the demo video is in /Backend Database.
 
-## PM documentations and the final deliverables:
+## PM documentations and the final deliverables
 1. The PM artefacts are in /Team Process (formal checkin documents), and /Housekeeping.
 2. There are two main deliverables, the Proposal and the Pitch, relavent documents are in /Design Milestones.
